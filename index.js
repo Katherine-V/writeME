@@ -1,8 +1,9 @@
 //Including packages needed for this application
 const fs = require("fs");
-const inquirer = require("inquirer");
+//const inquirer = require("inquirer");
 const path = require("path");
 const makeMarkdown = require("./utils/makeMarkdown");
+import inquirer from 'inquirer';
 
 //Creating an array of questions for user input
 const questions = [
