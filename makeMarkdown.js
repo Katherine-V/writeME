@@ -9,39 +9,39 @@ function renderLicenseBadge(license) {
 //Creating a function to generate markdown for README
 function makeMarkdown(data) {
   return `# ${data.title} 
-${renderLicenseBadge(data.license)}
+  ${renderLicenseBadge(data.license)}
 
-## Description
-${data.description}
+  ## Description
+  ${data.description}
 
-## Deployed Application URL
-${data.link}
+  ## Deployed Application URL
+  ${data.link}
 
-## Screenshot
-![alt-text](${data.screenshot})
+  ## Screenshot
+  ![alt-text](${data.screenshot})
 
-## Table of Contents
-* [Features](#features)
-* [Languages & Dependencies](#languagesanddependencies)
-* [How to Use This Application](#HowtoUseThisApplication)
-* [Contributors](#contributors)
-* [Questions](#questions)
+  ## Table of Contents
+  * [Features](#features)
+  * [Languages & Dependencies](#languagesanddependencies)
+  * [How to Use This Application](#HowtoUseThisApplication)
+  * [Contributors](#contributors)
+  * [Questions](#questions)
 
-## Features
-${data.features}
+  ## Features
+  ${data.features}
 
-## Languages & Dependencies
-${data.require}
+  ## Languages & Dependencies
+  ${data.require}
 
-## How to Use This Application:
-${data.usage}
+  ## How to Use This Application:
+  ${data.usage}
 
-## Contributors
-${data.contributors}
+  ## Contributors
+  ${data.contributors}
 
-## Questions
-Please send your questions [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect) or visit [github/${data.creator}](https://github.com/${data.creator}).
-`;
+  ## Questions
+  Please send your questions [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect) or visit [github/${data.creator}](https://github.com/${data.creator}).
+  `;
 }
 
-module.exports = generateMarkdown;
+module.exports = makeMarkdown;
