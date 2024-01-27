@@ -9,8 +9,11 @@ The function is met by accessing the application via the command line, which is 
 <br>
 Prompts will direct the user to enter specific information that can then fill out the template to make a new ReadMe file.
 <br>
-This video illustrates the function, but ends on a technical difficulty.
+This video illustrates the function, but ends on a technical difficulty.<br>
 https://drive.google.com/file/d/1BnDvtY3ni1N9rAwBc7cWK287QG42ao-b/view
+*
+This one worked as intended. Shows end result, as well.<br>
+https://drive.google.com/file/d/1OgWanqUNgy5XiOU7-FjUGu-b9t9Zjety/view
 ##
 The build was completed by use of JavaScript as well as the node package "inquirer".
 *    *    *
