@@ -11,10 +11,11 @@ Once within the folder of the application, use the command "node index.js" and t
 Prompts will direct the user to enter specific information that can then fill out the template to make a new ReadMe file.
 <br>
 This video illustrates the function, but ends on a technical difficulty.<br>
-https://drive.google.com/file/d/1BnDvtY3ni1N9rAwBc7cWK287QG42ao-b/view
-*
+https://drive.google.com/file/d/1BnDvtY3ni1N9rAwBc7cWK287QG42ao-b/view<br>
+*<br>
 This one worked as intended. Shows end result, as well.<br>
-https://drive.google.com/file/d/1OgWanqUNgy5XiOU7-FjUGu-b9t9Zjety/view
+https://drive.google.com/file/d/1OgWanqUNgy5XiOU7-FjUGu-b9t9Zjety/view<br>
+<br>
 ##
 The build was completed by use of JavaScript as well as the node package "inquirer".
 *    *    *
