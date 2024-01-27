@@ -6,6 +6,7 @@ The objective of this design is to provide a simple and straightforward applicat
 How to use:
 <br>
 The function is met by accessing the application via the command line, which is accessible by use of windows' Terminal or the quite useful GitBash.
+Once within the folder of the application, use the command "node index.js" and this will start the prompts.
 <br>
 Prompts will direct the user to enter specific information that can then fill out the template to make a new ReadMe file.
 <br>
